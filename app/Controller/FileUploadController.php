@@ -45,7 +45,7 @@ class FileUploadController extends AppController {
                         //$this->redirect(array('action' => 'index'));
                     } else {
 //                        $this->FileUpload->validationErrors
-                        $this->Session->setFlash(__('Format Name or Email is incorrect', false));
+                        $this->Session->setFlash(__('Format Name or Email is incorrect Or Data already exists', false));
                     }
 //                    $this->set('data', $this->data['FileUpload']);
 
