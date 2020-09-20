@@ -105,7 +105,8 @@
 					
 				</td>
 				<td><?php echo $this->Html3->link('View Detail','/Migration/q1_instruction')?></td>
-				<td><?php //echo $this->Html->link('Click Me','/Migration/q1')?></td>
+                <td><?php echo $this->Html->link('Click Me','/Migration/process')?></td>
+<?php /*				<td><?php //echo $this->Html->link('Click Me','/Migration/q1')?></td> */ ?>
 			</tr>
 		</tbody>
 	</table>
